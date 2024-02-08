@@ -1,6 +1,6 @@
 module github.com/cloudquery/cloudquery/plugins/source/okta
 
-go 1.21.4
+go 1.21.6
 
 require (
 	github.com/apache/arrow/go/v15 v15.0.0-20240114144300-7e703aae55c1
@@ -10,6 +10,7 @@ require (
 	github.com/invopop/jsonschema v0.12.0
 	github.com/okta/okta-sdk-golang/v3 v3.0.2
 	github.com/rs/zerolog v1.31.0
+	github.com/stretchr/testify v1.8.4
 	github.com/thoas/go-funk v0.9.3
 )
 
@@ -89,7 +90,6 @@ require (
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spf13/cobra v1.6.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/stretchr/testify v1.8.4 // indirect
 	github.com/tdewolff/minify/v2 v2.20.16 // indirect
 	github.com/tdewolff/parse/v2 v2.7.11 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
